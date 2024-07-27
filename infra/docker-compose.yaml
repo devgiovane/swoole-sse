@@ -1,0 +1,13 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    restart: always
+    tty: true
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: giovane
+      RABBITMQ_DEFAULT_PASS: giovane

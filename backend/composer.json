@@ -1,0 +1,19 @@
+{
+    "name": "giovanesantos/php-sse",
+    "license": "MIT",
+    "require": {
+        "ext-json": "*",
+        "ext-swoole": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giovane Santos Silva",
+            "email": "giovanesantos1999@gmail.com"
+        }
+    ]
+}
